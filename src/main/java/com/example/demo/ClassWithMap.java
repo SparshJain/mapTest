@@ -8,4 +8,6 @@ import java.util.Map;
 @Data
 public class ClassWithMap {
     Map<Key, Value> map = new HashMap<>();
+    String name;
+    Integer price;
 }
